@@ -1,0 +1,109 @@
+.product-page {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    
+     background-image: url('../images/productform.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.vender-id {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    background: linear-gradient(90deg, #0bb5d3, #d1d585);
+    width: 30%;
+    border-radius: 10px;
+    border: white;
+}
+
+.section-title {
+    font-size: 24px;
+    color: #333;
+    margin: 20px 0;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+
+.form-container {
+    margin-bottom: 40px;
+}
+
+.product-form-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.product-form-table td {
+    padding: 12px;
+    vertical-align: middle;
+}
+
+.preview-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-left: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.btn {
+    padding: 8px 18px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    margin: 5px;
+}
+
+.upload-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.new-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.save-btn {
+    background-color: #17a2b8;
+    color: white;
+}
+
+.show-btn {
+    background-color: #ffc107;
+    color: white;
+}
+
+.list-container {
+    overflow-x: auto;
+}
+
+.product-list-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.product-list-table th, .product-list-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.product-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 6px;
+}

@@ -1,0 +1,40 @@
+/* adminmain.css */
+
+.customer-main-image {
+    max-width: 300px;  /*  max width ke liye */
+    width: 200px;       
+    height: 100%;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+.customer-nav {
+    margin-top: 20px;
+}
+
+.customer-nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.customer-nav ul li {
+    display: inline;
+}
+
+.customer-link {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.customer-link:hover {
+    background-color: #0056b3;
+    color: black;
+}

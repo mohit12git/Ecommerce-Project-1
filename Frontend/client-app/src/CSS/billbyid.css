@@ -1,0 +1,61 @@
+/* Main Container */
+.billbyid-container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    font-family: 'Arial', sans-serif;
+}
+.billbyid-p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    background: linear-gradient(90deg, #b9bce1, #4566ac);
+    width: 30%; 
+    border-radius: 10px;
+}
+
+
+
+/* Bill Info */
+.billbyid-select {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin: 10%;
+    
+}
+
+/* Tables Styling */
+.billbyid-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.billbyid-table th,
+.billbyid-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.billbyid-table img {
+    border-radius: 8px;
+}
+
+/* Total Amount Display */
+.billbyid-total {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+}

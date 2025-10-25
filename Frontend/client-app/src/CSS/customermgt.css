@@ -1,0 +1,57 @@
+/* Container */
+.customer-mgt-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 12px rgba(0,0,0,0.1);
+    max-width: 900px;
+    margin: 30px auto;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Title */
+.customer-mgt-title {
+    color: #333;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+/* Table */
+.customer-mgt-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.customer-mgt-table th, .customer-mgt-table td {
+    border: 1px solid #dee2e6;
+    padding: 12px;
+    text-align: center;
+}
+
+.customer-mgt-table th {
+    background-color: #343a40;
+    color: white;
+    font-weight: bold;
+}
+
+/* Buttons */
+.customer-mgt-button {
+    background-color: #28a745;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.customer-mgt-button.inactive {
+    background-color: #dc3545;
+}
+
+.customer-mgt-button:hover {
+    opacity: 0.9;
+}

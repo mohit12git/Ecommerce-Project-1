@@ -1,0 +1,99 @@
+/* Container */
+.customer-home-container {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 900px;
+    margin: 30px auto;
+    box-shadow: 0 8px 12px rgba(0,0,0,0.1);
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+
+
+      background-image: url('../images/customerhome.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/* Session Info */
+.customer-home-session {
+    font-size: 25px;
+    color: #212121;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Title */
+.customer-home-title {
+    background: linear-gradient(90deg, #3ab93e, #3edda5);
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    
+}
+
+/* Welcome Info */
+.customer-home-welcome {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #2e2e2e;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* Customer Image */
+.customer-home-image {
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 3px solid #4CAF50;
+    width: 150px;
+    height: 120px;
+   
+}
+
+/* Buttons Container */
+.customer-home-buttons {
+    margin-bottom: 20px;
+}
+
+.customer-home-button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.customer-home-button.shop {
+    background-color: #007bff;
+    color: white;
+}
+
+.customer-home-button.bill {
+    background-color: #17a2b8;
+    color: white;
+}
+
+.customer-home-button.logout {
+    background-color: #dc3545;
+    color: white;
+}
+
+/* Footer Marquee */
+.customer-home-footer {
+    background-color: #ffc107;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 30px;
+}

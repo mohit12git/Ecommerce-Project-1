@@ -1,0 +1,74 @@
+.citymgt-wrapper {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: rgba(203, 200, 200, 0.623);
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.citymgt-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.citymgt-table {
+    width: 80%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+.citymgt-table th, .citymgt-table td {
+    border: 2px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.citymgt-table th {
+    background-color: #007bff;
+    color: white;
+}
+
+.citymgt-form-control {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.citymgt-btn {
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.citymgt-btn-primary {
+    background-color: #007bff;
+    color: white;
+}
+
+.citymgt-btn-success {
+    background-color: #28a745;
+    color: white;
+}
+
+.citymgt-btn-secondary {
+    background-color: #6c757d;
+    color: white;
+}
+
+.citymgt-status-enabled {
+    color: green;
+    font-weight: bold;
+}
+
+.citymgt-status-disabled {
+    color: red;
+    font-weight: bold;
+}

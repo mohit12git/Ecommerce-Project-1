@@ -1,0 +1,123 @@
+/* Bill Page Container */
+.bill-container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 25px;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  border-radius: 12px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.6);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #eaeaea;
+}
+
+/* Customer Info Table */
+.bill-customer-info {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.bill-customer-info td {
+  padding: 10px 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 15px;
+}
+
+.bill-customer-info tr td:first-child {
+  font-weight: bold;
+  color: #66ccff;
+}
+
+/* Bill Title */
+.bill-title {
+  text-align: center;
+  font-size: 22px;
+  margin: 15px 0;
+  font-weight: 600;
+  color: #66ccff;
+  border-bottom: 2px solid #66ccff;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Product Table */
+.bill-products-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.bill-products-table th,
+.bill-products-table td {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 12px;
+  text-align: center;
+}
+
+.bill-products-table th {
+  background: linear-gradient(135deg, #1c1c1c, #2b2b2b);
+  color: #66ccff;
+  font-weight: 600;
+}
+
+.bill-products-table tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.bill-products-table tr:hover {
+  background: rgba(102, 204, 255, 0.1);
+}
+
+/* Product Image */
+.bill-products-table img {
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+/* Total */
+.bill-total {
+  text-align: right;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 15px 0;
+  color: #ffffff;
+}
+
+/* Pay Button */
+.bill-pay-button {
+  background: linear-gradient(135deg, #66ccff, #3399ff);
+  color: #0d1b2a;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.bill-pay-button:hover {
+  background: linear-gradient(135deg, #3399ff, #0077cc);
+  transform: scale(1.05);
+  color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .bill-container {
+    padding: 15px;
+  }
+
+  .bill-products-table th,
+  .bill-products-table td {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .bill-pay-button {
+    width: 100%;
+  }
+}

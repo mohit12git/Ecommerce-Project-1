@@ -1,0 +1,72 @@
+/* Container */
+.product-list-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 12px rgba(0,0,0,0.1);
+    max-width: 1000px;
+    margin: 30px auto;
+    font-family: 'Arial', sans-serif;
+}
+
+.product-list-title {
+    background: linear-gradient(90deg, #4ca2af, #4566ac); 
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* Select Dropdowns */
+.product-list-select {
+    padding: 8px;
+    border-radius: 5px;
+    margin: 10px;
+    border: 1px solid #ced4da;
+    font-size: 16px;
+}
+
+/* Table */
+.product-list-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.product-list-table th, .product-list-table td {
+    border: 1px solid #dee2e6;
+    padding: 12px;
+    text-align: center;
+}
+
+.product-list-table th {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+}
+
+/* Buttons */
+.product-list-button {
+    background-color: #28a745;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.product-list-button.inactive {
+    background-color: #dc3545;
+}
+
+.product-list-button:hover {
+    opacity: 0.9;
+}
+
+/* Images */
+.product-list-image {
+    border-radius: 8px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+}
